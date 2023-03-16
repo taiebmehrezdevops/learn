@@ -1,0 +1,35 @@
+nav {
+    list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  font-size: large;
+
+}
+nav > a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+body{
+  font-family: 'Roboto';font-size: 10px;
+}
+a > h1
+{
+  background-color: grey;
+}
